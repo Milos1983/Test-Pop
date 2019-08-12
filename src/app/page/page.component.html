@@ -1,0 +1,388 @@
+<app-menu></app-menu>
+<div class="container">
+    <img class="carousel-previous-buttom" src="assets/carouselprevious.png">
+    <ngb-carousel *ngIf="images">
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="images[0]" alt="Random first slide">
+          </div>
+          <div class="carousel-caption-popart">
+            <h1>Nullam in nisl posuere</h1>
+            <p>In maximus blandit tortor, ut efficitur tortor suscipit vitae.</p>
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img src="assets/slider2.png?random=1" alt="Random second slide">
+          </div>
+          <div class="carousel-caption-popart">
+            <h1>Nullam in nisl posuere</h1>
+            <p>In maximus blandit tortor, ut efficitur tortor suscipit vitae.</p>
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img src="assets/slider3.png?random=2" alt="Random third slide">
+          </div>
+          <div class="carousel-caption-popart">
+            <h1>Nullam in nisl posuere</h1>
+            <p>In maximus blandit tortor, ut efficitur tortor suscipit vitae.</p>
+          </div>
+        </ng-template>
+      </ngb-carousel>
+      <img class="carousel-next-buttom" src="assets/carouselnext.png">
+    <div class="row">
+        <div class="green-box">
+            <p class="margin-top">Ut sed odio quis</p>
+            <hr class="green-box-line">
+            <p>Suspendisse sagittis felis</p>
+        </div>
+    </div>
+
+    <!-- Curabitur Lacus -->
+    <div class="row text-center top">
+        <div class="first-element col-12 col-lg-12 mb-4">
+            <h4>Curabitur lacus ipsum</h4>
+            <h6>In maximus blandit tortor, ut efficitur tortor suscipit vitae.</h6>
+            <hr class="blue-line">
+            <p class="col-12 col-lg-6 element-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper 
+                suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class="row col-12 col-lg-8 mb-4 element-center">
+          <div class="col-12 col-md-4 col-lg-4">
+            <div class="card">
+              <img class="card-img-top" src="assets/1.png" alt="Card image cap">
+              <div class="card-body">
+                <h1 class="card-title">01</h1>
+                <h5 class="card-title">Lacus</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore...</p>
+                <p class="card-text-green">- - -</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-4">
+            <div class="card">
+              <img class="card-img-top" src="assets/2.png" alt="Card image cap">
+              <div class="card-body">
+                <h1 class="card-title">02</h1>
+                <h5 class="card-title">Ipsum</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore...</p>
+                <p class="card-text-green">- - -</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-4">
+            <div class="card">
+              <img class="card-img-top" src="assets/3.png" alt="Card image cap">
+              <div class="card-body">
+                <h1 class="card-title">03</h1>
+                <h5 class="card-title">Curabitur</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore...</p>
+                <p class="card-text-green">- - -</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-1 col-lg-1 mb-4 element-center">
+  <hr class="vertical-line-green-lorem">
+</div>
+<div class="container">
+    <div class="row text-center top">
+        <div class="first-element col-12 col-lg-12 mb-4">
+            <h4>Lorem</h4>
+            <hr class="blue-line">
+        </div>
+    </div>
+</div>
+<!--Lorem -->
+<div class="top lorem-element">
+  <div class="row col-sm-12 col-md-12 col-lg-5 mb-4 element-center">
+      <img class="lorem-previous-buttom" src="assets/arrowprevious.png">
+      <ngb-carousel *ngIf="images">
+          <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+              <img src="assets/slider5.png?random=0" alt="Random first slide">
+            </div>
+            <div class="carousel-caption-lorem">
+              <p>Nullam finibus felis a nisi convallis, condimentum bibendum sapien gravida.</p>
+              <h6>PopArt Studio</h6>
+            </div>
+          </ng-template>
+          <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+              <img src="assets/slider5.png?random=1" alt="Random second slide">
+            </div>
+            <div class="carousel-caption-lorem">
+                <p>Aenean rutrum eros sed scelerisque posuere.</p>
+                <h6>PopArt Studio</h6>
+            </div>
+          </ng-template>
+          <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+              <img src="assets/slider5.png?random=2" alt="Random third slide">
+            </div>
+            <div class="carousel-caption-lorem">
+              <p>Pellentesque sed pellentesque ex, id rhoncus diam.</p>
+              <h6>PopArt Studio</h6>
+            </div>
+          </ng-template>
+        </ngb-carousel>
+        <img class="lorem-next-buttom" src="assets/arrownext.png">
+  </div>
+</div>
+
+<div class="col-1 col-lg-1 mb-4 element-center">
+    <hr class="vertical-line-green-lorem">
+  </div>
+
+<!-- Gallery -->
+<div class="container">
+    <div class="row text-center top">
+        <div class="first-element col-12 col-lg-12 mb-4">
+            <h4>Gallery</h4>
+            <h6>Ut sed odio quis sem bibendum tristique</h6>
+            <hr class="blue-line">
+        </div>
+        <div class="row col-12 col-lg-12 mb-4 element-center gallery-bottom">
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card-gallery card-gallery-hover">
+              <img class="card-img-gallery" src="assets/gallery1.png" alt="">
+              <span class="center"><a href="#"><button class="card-gallery-hover-button">image 1</button></a></span>
+              <div class="blue"> 
+                  &nbsp;
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card-gallery card-gallery-hover">
+              <img class="card-img-gallery" src="assets/gallery2.png" alt="">
+              <span class="center"><a href="#"><button class="card-gallery-hover-button">image 2</button></a></span>
+              <div class="blue"> 
+                  &nbsp;
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card-gallery card-gallery-hover">
+              <img class="card-img-gallery" src="assets/gallery3.png" alt="">
+              <span class="center"><a href="#"><button class="card-gallery-hover-button">image 3</button></a></span>
+              <div class="blue"> 
+                  &nbsp;
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+              <div class="card-gallery card-gallery-hover">
+                <img class="card-img-gallery" src="assets/gallery4.png" alt="">
+                <span class="center"><a href="#"><button class="card-gallery-hover-button">image 4</button></a></span>
+                <div class="blue"> 
+                    &nbsp;
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-1 col-lg-1 mb-4 element-center">
+  <hr class="vertical-line-green">
+</div>
+
+<!-- Map -->
+<div class="top map-element">
+  <div class="row col-sm-12 col-md-12 col-lg-5 mb-4">
+    <div class="card-map flex-row flex-wrap">
+      <img src="assets/mapcard.png" class="card-img-map" alt="">
+      <div class="card-block-map col-sm-12 col-md-10 col-lg-7">
+        <h4>lorem us</h4>
+        <hr class="blue-line-card">
+        <div class="row col-12 col-lg-12">
+          <p class="card-text">Aenean rutrum eros sed scelerisque posuere. Curabitur dapibus pharetra neque sed ultrices. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean viverra et lacus vitae tempus. Aliquam luctus sapien ut dolor eleifend tristique. Vestibulum viverra auctor ex eget porttitor. Morbi imperdiet dolor eget feugiat tincidunt. Donec sagittis nunc lorem, ut faucibus tellus scelerisque mollis. Sed ac sapien gravida, mattis sapien aliquet, dictum leo. Pellentesque sed pellentesque ex, id rhoncus diam. </p>
+        </div>
+        <div class="card-block-map-footer">
+            <div class="col-4 col-md-4 col-lg-4">
+                <img src="assets/plane.png" class="" alt="">
+                <h4>Novi Sad</h4>
+                <p class="card-text">2 h 42 min</p>
+            </div>
+            <div class="col-4 col-md-4 col-lg-4">
+                <img src="assets/plane.png" class="" alt="">
+                <h4>Novi Sad</h4>
+                <p class="card-text">2 h 26 min</p>
+            </div>
+            <div class="col-4 col-md-4 col-lg-4">
+                <img src="assets/plane.png" class="" alt="">
+                <h4>Novi Sad</h4>
+                <p class="card-text">1 h 31 min</p>
+            </div>
+        </div>
+      </div>
+  </div>
+  </div>
+</div>
+
+<div class="col-1 col-lg-1 mb-4 element-center">
+  <hr class="vertical-line-green">
+</div>
+
+<!-- Suspendisse sagittis -->
+<div class="second-element">
+    <div class="col-12 col-lg-12 mb-4">
+        <h4>Suspendisse sagittis felis non</h4>
+        <h6>Ut sed odio quis sem bibendum tristique</h6>
+        <hr class="white-line">
+    </div>
+    <div class="row col-12 col-lg-8 mb-4 element-center">
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card">
+          <img class="card-img-top" src="assets/bike1.png" alt="">
+          <div class="card-body-news">
+            <h5 class="card-title">sagittis non</h5>
+            <p class="card-text">Pellentesque sed pellentesque ex, id rhoncus diam. Donec at felis pretium, consectetur erat vel, imperdiet diam.</p>
+            <p class="card-text-green">- - -</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card">
+          <img class="card-img-top" src="assets/bike2.png" alt="">
+          <div class="card-body-news">
+            <h5 class="card-title">lorem bike</h5>
+            <p class="card-text">Pellentesque sed pellentesque ex, id rhoncus diam. Donec at felis pretium, consectetur erat vel, imperdiet diam.</p>
+            <p class="card-text-green">- - -</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card">
+          <img class="card-img-top" src="assets/bike3.png" alt="">
+          <div class="card-body-news">
+            <h5 class="card-title">river felis</h5>
+            <p class="card-text">Pellentesque sed pellentesque ex, id rhoncus diam. Donec at felis pretium, consectetur erat vel, imperdiet diam.</p>
+            <p class="card-text-green">- - -</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card">
+          <img class="card-img-top" src="assets/bike4.png" alt="">
+          <div class="card-body-news">
+            <h5 class="card-title">lux isse</h5>
+            <p class="card-text">Pellentesque sed pellentesque ex, id rhoncus diam. Donec at felis pretium, consectetur erat vel, imperdiet diam.</p>
+            <p class="card-text-green">- - -</p>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+ <!-- Latest News -->
+<div class="container">
+    <div class="row text-center top">
+        <div class="first-element col-12 col-lg-12 mb-4">
+            <h4>latest news</h4>
+            <hr class="blue-line">
+        </div>
+        <div class="row col-12 col-lg-8 mb-4 element-center">
+          <div class="col-12 col-md-4 col-lg-4">
+            <div class="card">
+              <h1 class="card-title-news">Quisque vel lectus</h1>
+              <p class="card-subtitle-news">February 10, 2016</p>
+              <img class="card-img-top" src="assets/news1.png" alt="">
+              <div class="card-body-news">
+                <br>
+                <p class="card-text">Praesent eu massa vel diam laoreet elementum ac sed felis. Donec suscipit ultricies risus sed mollis. Donec volutpat porta risus posuere imperdiet. Sed viverra dolor sed dolor placerat ornare ut...</p>
+                <p class="card-text-green">continue</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-4">
+            <div class="card">
+              <h1 class="card-title-news">Quisque vel lectus</h1>
+              <p class="card-subtitle-news">February 10, 2016</p>
+              <img class="card-img-top" src="assets/news2.png" alt="">
+              <div class="card-body-news">
+                <br>
+                <p class="card-text">Praesent eu massa vel diam laoreet elementum ac sed felis. Donec suscipit ultricies risus sed mollis. Donec volutpat porta risus posuere imperdiet. Sed viverra dolor sed dolor placerat ornare ut...</p>
+                <p class="card-text-green">continue</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-4">
+            <div class="card">
+              <h1 class="card-title-news">Quisque vel lectus</h1>
+              <p class="card-subtitle-news">February 10, 2016</p>
+              <img class="card-img-top" src="assets/news3.png" alt="">
+              <div class="card-body-news">
+                <br>
+                <p class="card-text">Praesent eu massa vel diam laoreet elementum ac sed felis. Donec suscipit ultricies risus sed mollis. Donec volutpat porta risus posuere imperdiet. Sed viverra dolor sed dolor placerat ornare ut...</p>
+                <p class="card-text-green">continue</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
+
+<!-- Suspendisse sagittis -->
+<div class="third-element">
+    <div class="col-12 col-lg-12 mb-4">
+        <h6>Quisque vel lectus ac nibh vestibulum lobortis. Donec dignissim eu arcu sed pharetra.</h6>
+    </div>
+    <div class="row col-12 col-lg-6 mb-4 element-center">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Enter e-mail">
+        <span class="input-group-btn">
+          <button class="btn btn-subscribe" type="submit">
+            subscribe
+          </button>
+        </span>
+      </div>
+    </div>
+</div>
+
+ <!-- Footer -->
+<div class="container">
+    <div class="row text-center top">
+        <div class="row col-12 col-lg-8 mb-4 footer-element">
+          <div class="col-12 col-md-3 col-lg-3 footer-brand">
+            <a href="#" routerLink="/profile"><img src="assets/logo.png"></a>
+          </div>
+          <div class="row col-12 col-md-9 col-lg-9 mb-4 footer-colums">
+              <div class="col-4 col-md-3 col-lg-3 ml-auto">
+                  <div class="card">
+                    <h4>popart studio</h4>
+                    <p>Link 1</p>
+                    <p>Link 2</p>
+                    <p>Link 3</p>
+                </div>
+              </div>
+              <div class="col-4 col-md-3 col-lg-3">
+                  <div class="card">
+                    <h4>follow us</h4>
+                    <p>Link 1</p>
+                    <p>Link 2</p>
+                    <p>Link 3</p>
+                </div>
+              </div>
+              <div class="col-4 col-md-3 col-lg-3">
+                  <div class="card">
+                    <h4>contact us</h4>
+                    <p>Narodnog Fronta</p>
+                    <p>Novi Sad</p>
+                    <p class="blue-text">+381 63 123456</p>
+                </div>
+              </div>
+            </div>
+          
+          <hr class="col-10 col-md-12 col-lg-12">
+          <p class="copyright">Copyright © PopArt Studio 2017.All rights reserved. PopArt</p>
+        </div>
+    </div>
+</div>
+
+ 
+    

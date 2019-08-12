@@ -1,0 +1,644 @@
+.container {
+    max-width: 1880px;
+}
+
+.picsum-img-wrapper img {
+    width: 100%;
+    max-height: 760px;
+}
+
+.carousel li {
+    display:none !important;
+}
+
+.carousel {
+  outline: 0;
+}
+
+.carousel-caption-popart {
+    font-family: Lato-Bold;
+    position: absolute;
+    right: 15%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    margin-top: -23%;
+}
+
+.carousel-caption-popart h1 {
+    font-size: 4.3vh;
+    text-transform: uppercase;
+}
+
+.carousel-caption-popart p {
+    font-family: Lato-Italic;
+    font-size: 1.6vh;
+    margin-top: 1.2%;
+}
+
+.carousel-previous-buttom {
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 3%;
+    z-index: 1;
+}
+
+.carousel-next-buttom {
+    position: absolute;
+    margin-left: 92%;
+    margin-top: -19%;
+}
+
+.green-box {
+    background-color: #b6c92f;
+    font-family: Lato-Light;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    border: 4px solid #fff;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0% 2.2%;
+    margin-top: -44px;
+    z-index: 10;
+}
+
+.margin-top {
+    margin-top: 18px;
+}
+
+.green-box p {
+    font-size: 1.4vh;
+    line-height: 0.5vh;
+}
+
+.green-box-line {
+    background-color: #fff;
+    height: 1px;
+    width: 40px;
+}
+
+.blue-line{
+    background-color: #0099a1;
+    height: 1px;
+    width: 40px;
+}
+
+.white-line{
+    background-color: #fff;
+    height: 1px;
+    width: 40px;
+}
+
+.top {
+    margin-top: 5.5%;
+}
+
+.bottom {
+    margin-bottom: 5.5%;
+}
+
+.element-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.first-element {
+    display: block;
+}
+
+.first-element h4 {
+    text-transform: uppercase;
+    font-family: Lato-Light;
+}
+
+.first-element h6 {
+    color: #888888;
+    font-family: Lato-HairlineItalic;
+}
+
+.first-element p {
+    color: #888888;
+    font-family: Lato-Light;
+}
+
+.lorem-element {
+    background-image: url('../../assets/homebackground.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 47vw;
+    margin-bottom: -80px;
+    margin-top: -50px;
+    min-height: 350px;
+}
+
+.lorem-previous-buttom {
+    position: absolute;
+    margin-top: 17.5%;
+    margin-left: 2%;
+}
+
+.lorem-next-buttom {
+    position: absolute;
+    margin-left: 87%;
+    padding-top: 17.5%;
+}
+
+.vertical-line-green-lorem {
+    border-left: 1px solid #d3da9e;
+    border-top: none;
+    max-height: 150px;
+    width: 2px;
+    padding-top: 15vh;
+}
+
+.carousel-caption-lorem {
+    font-family: Lato-Bold;
+    position: absolute;
+    right: 15%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    margin-top: -23%;
+}
+
+.carousel-caption-lorem h6 {
+  color: black;
+  font-family: Lato-Regular;
+}
+
+.carousel-caption-lorem p {
+    font-family: Lato-Italic;
+    font-size: 1.4vh;
+    margin-top: -25px;
+    color: #888888;
+}
+
+.carousel-caption-lorem a {
+    color: #888888;
+    background-image: #888888;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: transparent;
+    background-clip: border-box;
+    border: none;
+    border-radius: .25rem;
+}
+
+.card-body {
+    padding: 0.4rem;
+}
+
+.card-text-green {
+    color: #b6c92f !important;
+    text-transform: uppercase;
+    font-family: Lato-Regular;
+}
+
+.card h1 {
+    color: #b6c92f;
+    font-family: Lato-Regular;
+    font-size: 3.5rem;
+    margin-top: -30px;
+}
+
+.card h5 {
+    font-family: Lato-Regular;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.card p {
+    font-family: Lato-Regular;
+    color: #888888;
+    font-size: 14px;
+}
+
+.card-img-gallery {
+    width: 100%;
+}
+
+.card-gallery {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: transparent;
+    background-clip: border-box;
+    border: none;
+}
+
+.card-gallery-hover-button {
+    background: transparent;
+    color: white;
+    padding: 2%;
+    border: 1px solid white;
+    font-family: Lato-Regular;
+    text-transform: uppercase;
+    width: 150px;
+}
+.card-gallery-hover {
+    display:inline-block;
+    position: relative;
+    width:100%;
+    overflow: hidden; 
+}
+.card-gallery-hover .blue, .card-gallery-hover .center { display:none;}
+.card-gallery-hover:hover .blue {
+    content:'.';
+    display: block;
+    bottom:10px;
+    left: 10px;
+    right:10px;
+    opacity: 0.8;
+    position: absolute;
+    top: 10px;
+    z-index: 1;
+    background: #259da3;
+}  
+
+.card-gallery-hover:hover .center {
+    display:block;
+    color: white;
+    position: absolute;
+    top: 45%; left: 20px; right: 20px; bottom:50%;
+    z-index: 2;
+}
+
+.gallery-bottom {
+    margin-bottom: 2% !important;
+}
+
+button:hover,
+button:active,
+button:focus {
+    outline: none;
+}
+
+.second-element {
+    background-color: #0099a1;
+    padding-top: 8%;
+    padding-bottom: 2%;
+    text-align: center;
+    margin-top: -5.2%;
+}
+
+.second-element h4 {
+    text-transform: uppercase;
+    font-family: Lato-Light;
+    color: #fff;
+}
+
+.second-element h5 {
+    color: #fff;
+    font-family: Lato-Light;
+    margin-top: 7%;
+}
+
+.second-element h6 {
+    color: #e4eab9;
+    font-family: Lato-HairlineItalic;
+}
+
+.second-element p {
+    color: #e4eab9;
+    font-family: Lato-Light;
+}
+
+.vertical-line-green {
+    border-left: 1px solid #d3da9e;
+    border-top: none;
+    max-height: 150px;
+    width: 2px;
+    padding-top: 116%;
+  }
+
+.map-element {
+    background-image: url('../../assets/map.png');
+    margin-top: -5.5%;
+    margin-bottom: -5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 38.9vw;
+    padding-left: 5%;
+    padding-top: 6%;
+    min-height: 350px;
+}
+
+.card-map {
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    border: none;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.1);
+}
+
+.card-header-map {
+    margin-bottom: 0;
+}
+
+.card-block-map {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    margin-top: 5%;
+}
+
+.card-block-map h4 {
+    text-transform: uppercase;
+    font-family: Lato-Light;
+    font-size: 2.23vh;
+}
+
+.card-block-map p {
+    color: #888888;
+    font-family: Lato-Light;
+    font-size: 1.3vh;
+}
+
+.blue-line-card {
+    background-color: #0099a1;
+    height: 1px;
+    width: 40px;
+    float: left;
+}
+
+.card-img-map {
+    height: 25vw;
+    float: left;
+    min-height: 265px;
+}
+
+.card-block-map-footer {
+    text-align: center;
+    display: flex;
+    margin-top: 7%;
+}
+
+.card-block-map-footer h4 {
+    text-transform: capitalize;
+    font-family: Lato-Regular;
+    font-size: 1.5vh;
+}
+
+.card-block-map-footer p {
+    font-family: Lato-Italic;
+}
+
+.card-block-map-footer img {
+    height: 2.8vw;
+}
+
+.card-body-news {
+    flex: 1 1 auto;
+}
+.card-title-news {
+    color: black !important;
+    font-family: Lato-Regular;
+    font-size: 1.2rem !important;
+    margin-top: 10px !important;
+}
+.card-subtitle-news {
+    color: #b6c92f !important;
+    font-family: Lato-HairlineItalic !important;
+}
+
+.third-element {
+    background-color: #f2f3ea;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.third-element h6 {
+    font-family: Lato-Regular;
+}
+
+@media only screen and (max-width:479px) {
+    .carousel-caption-popart {
+        margin-top: -33%;
+    }
+    .carousel-caption-popart h1 {
+        font-size: 2.5vh;
+    }
+    .vertical-line-green {
+        padding-top: 50px;
+    }
+    .second-element {
+        margin-top: -55px;
+    }
+    .map-element {
+        margin-top: -45px;
+        margin-bottom: -50px;
+        padding-top: 27px;
+        min-height: 470px;
+    }
+
+}
+
+  .input-group>.form-control:not(:last-child) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    height: 55px;
+    width: 0%;
+    border: none;
+}
+
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  
+.btn-subscribe {
+    margin-left: -123px;
+    z-index: 10;
+    position: absolute;
+    margin-top: 8.5px;
+    background-color: #b6c92f;
+    text-transform: uppercase;
+    font-family: Lato-Regular;
+    color: #fff;
+    border-radius: 0px;
+}
+
+.footer-element {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-brand {
+    text-align: left;
+    padding-top: 25px;
+}
+
+.footer-colums {
+    display: inline-flex; 
+}
+
+.footer-colums h4 {
+    font-family: Lato-Light;
+    color: #b6c92f;
+    text-transform: uppercase;
+    font-size: 2vh;
+}
+
+.footer-colums p {
+    font-family: Lato-Regular;
+    color: #888888;
+}
+
+.footer-colums-content {
+    text-align: left;
+}
+
+.blue-text {
+    color: #009aa3 !important;
+    margin-bottom: 55px;
+}
+
+.copyright {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2vh;
+    font-family: Lato-Regular;
+    color: #888888;
+    margin-top: 1%;
+    margin-bottom: 0.5%;
+}
+
+@media only screen and (max-width:480px) {
+    .carousel-previous-buttom {
+        margin-top: 18%;
+    }
+}
+
+@media only screen and (min-width:480px) and (max-width: 680px) {
+    .carousel-previous-buttom {
+        margin-top: 125px;
+    }
+}
+
+@media only screen and (max-width:640px) {
+    .carousel-next-buttom {
+        margin-left:85%;
+    }
+}
+@media only screen and (min-width:480px) and (max-width: 680px) { 
+    .card-block-map p {
+        font-size: 3.5vh !important;
+    }
+    .card-block-map-footer h4 {
+        font-size: 3.5vh !important;
+    }
+    .card-block-map h4 {
+        font-size: 4.23vh !important;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .footer-colums {
+        margin-left: auto;
+    }
+    .footer-colums h4 {
+        font-size: 2.2vh;
+    }
+}
+
+@media only screen and (min-width:480px) and (max-width: 860px) {
+    .carousel-caption-popart {
+        margin-top: -28%;
+    }
+    
+    .carousel-caption-popart h1 {
+        font-size: 7vh;
+    }
+    
+    .carousel-caption-popart p {
+        font-size: 3.6vh;
+    }
+}
+
+@media only screen and (min-width:800px) {
+    .card-map {
+        min-width: 520px;
+    }
+}
+
+@media only screen and (max-width:864px) {
+    .card-img-map {
+       display: none;
+    }
+    .footer-brand {
+        text-align: center;
+        padding-bottom: 8%;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .card-block-map-footer img {
+        height: 30px;
+    }
+
+    .card-block-map p {
+        font-size: 2vh;
+    }
+
+    .card-block-map-footer {
+        margin-top: 1%;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .green-box {
+        margin-top: -28px;
+    }
+
+    .margin-top {
+        margin-top: 12px;
+    }
+    .green-box p {
+        font-size: 1.2vh;
+        line-height: 0.1vh;
+        margin-bottom: 0.9rem;
+    }
+    .green-box-line {
+        margin-top: -0.4rem;
+        margin-bottom: 0.6rem;   
+    }
+}
+
+@media only screen and (min-width:1920px) { 
+    .carousel-next-buttom {
+        margin-left:1780px;
+        margin-top: -385px
+    }
+    .carousel-previous-buttom {
+        margin-top: 360px;
+    }
+}
+
+
+
+
+
+
+
+
